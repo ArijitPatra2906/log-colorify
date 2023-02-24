@@ -1,0 +1,29 @@
+{
+  "name": "console-log-colorify",
+  "version": "1.0.0",
+  "description": "A library to colorfull your console log",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArijitPatra2906/log-colorify.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorfull logs"
+  ],
+  "author": "Arijit Patra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArijitPatra2906/log-colorify/issues"
+  },
+  "homepage": "https://github.com/ArijitPatra2906/log-colorify#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": ["lib/**/*"]
+}
